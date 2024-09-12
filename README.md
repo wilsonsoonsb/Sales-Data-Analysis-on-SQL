@@ -1,9 +1,9 @@
-**Introduction**: 
+I. **Introduction**: 
 
 Cars R Us is a wholesale distributor of diecast cars which operates globally in over 15 countries. The company has approached us in hopes of uncovering key critical insights into their business and operations, and identifying areas of improvement. 
 This will be done so by analysing data and extracting data from their sales records database, which will uncover KPIs and help facilitate informed data-driven decisions in potential future expansion
 
-**Key points:**
+II. **Key points:**
 
 To answer our client queries, we will analyse and extract data from the provided sales records database. Doing so will uncover KPIs and help facilitate informed data-driven decisions in future expansion discussions. In order to achieve this goal, this project will focus on the following questions that will provide actionable insights in regards to their operation:
 1.  **What are the top 10 highly demanded products and its availability?**
@@ -12,7 +12,7 @@ To answer our client queries, we will analyse and extract data from the provided
 
 3. **How much should be spent on acquiring new customers?**
 
-**Dataset:**
+III. **Dataset:**
 
 To start off, the database schema which we will be working with consists of eight tables :
 
