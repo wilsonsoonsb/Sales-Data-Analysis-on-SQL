@@ -31,3 +31,18 @@ To start off, the database schema which we will be working with consists of eigh
 **Which Products Should We Order More of or Less of? (Determining the top 10 highly demanded products and its availability)**
 
 The question pertains to inventory reports, specifically focusing on two aspects: identifying low stock items (i.e., products in demand) and analyzing product performance. By addressing these areas, the aim is to enhance supply optimization and improve user experience by preventing popular products from running out of stock. Priority for restocking is then given to products that fulfill two criterias: 1.high product performance and 2. lowstock. This approach ensures that the most successful and sought-after products are replenished promptly, aligning with the goal of maintaining adequate inventory levels and meeting customer demands.
+
+-- low stock / high-demand products
+WITH
+lowStock AS (
+  SELECT P.productCode,
+         P.productName,
+         P.productLine,
+ROUND( SUM(O.quantityOrdered *1.0)/P.quantityInStock , 2) AS low_Stock
+    FROM products AS P
+    JOIN orderdetails AS O
+      ON P.productCode = O.productCode
+GROUP BY P.productCode
+ORDER BY low_Stock DESC
+LIMIT 10
+),
