@@ -25,7 +25,8 @@ To start off, the database schema which we will be working with consists of eigh
 - Products: List of scale model cars
 - ProductLines: Categories of scale model cars
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/12f8528b-8e07-495c-b4d3-0a2f2b5d9dbf/7c72c2d9-30a8-4954-aca0-0e26574a9a6f/image.png)
+![image](https://github.com/user-attachments/assets/46358b90-8042-4cec-8bc9-2668fc97639a)
+
 
 **Question 1.** 
 **Which Products Should We Order More of or Less of? (Determining the top 10 highly demanded products and its availability)**
